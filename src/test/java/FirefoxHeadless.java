@@ -27,7 +27,6 @@ public class FirefoxHeadless {
         driver.get("http://www.google.com");
         driver.getPageSource();
         driver.getTitle();
-        driver.findElement(By.id("lst-ib")).sendKeys("Just another test");
         assertEquals("Google", driver.getTitle());
     }
 }
