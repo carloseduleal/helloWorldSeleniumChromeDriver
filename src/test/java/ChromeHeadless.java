@@ -16,10 +16,8 @@ public class ChromeHeadless {
 
     @Test
     public void openBrowserAndDoSomething() throws IOException {
-        System.setProperty("webdriver.chrome.driver","drivers/chromedriver_linux");
-
         ChromeDriverService service = new ChromeDriverService.Builder()
-                .usingDriverExecutable(new File("drivers/chromedriver_linux"))
+                .usingDriverExecutable(new File("/usr/bin/chromedriver"))
                 .usingAnyFreePort()
                 .withEnvironment(ImmutableMap.of("DISPLAY",":99"))
                 .build();
