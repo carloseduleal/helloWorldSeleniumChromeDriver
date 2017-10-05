@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f16b7ff9-6591-4381-a52b-6fbb436b6e8e" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/FirefoxHeadless.java" afterPath="$PROJECT_DIR$/src/test/java/ChromeHeadless.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/FirefoxHeadless.class" afterPath="$PROJECT_DIR$/build/classes/test/FirefoxHeadless.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/ChromeHeadless.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/ChromeHeadless.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/FirefoxHeadless.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/FirefoxHeadless.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/Testing.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/Testing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-ChromeHeadless.xml" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-ChromeHeadless.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-FirefoxHeadless.xml" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-FirefoxHeadless.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-Testing.xml" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-Testing.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ChromeHeadless.java" afterPath="$PROJECT_DIR$/src/test/java/ChromeHeadless.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -41,12 +24,12 @@
       <file leaf-file-name="ChromeHeadless.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ChromeHeadless.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="27" column="72" lean-forward="false" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
+            <state relative-caret-position="293">
+              <caret line="26" column="43" lean-forward="true" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#483#748#1" expanded="true" />
-                <element signature="e#996#1013#0" expanded="true" />
+                <element signature="e#559#824#1" expanded="true" />
+                <element signature="e#1072#1089#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1116,8 +1099,8 @@
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#483#748#1" expanded="true" />
-            <element signature="e#996#1013#0" expanded="true" />
+            <element signature="e#559#824#1" expanded="true" />
+            <element signature="e#1072#1089#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1216,8 +1199,8 @@
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#483#748#1" expanded="true" />
-            <element signature="e#996#1013#0" expanded="true" />
+            <element signature="e#559#824#1" expanded="true" />
+            <element signature="e#1072#1089#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1312,12 +1295,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ChromeHeadless.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="27" column="72" lean-forward="false" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
+        <state relative-caret-position="293">
+          <caret line="26" column="43" lean-forward="true" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#483#748#1" expanded="true" />
-            <element signature="e#996#1013#0" expanded="true" />
+            <element signature="e#559#824#1" expanded="true" />
+            <element signature="e#1072#1089#0" expanded="true" />
           </folding>
         </state>
       </provider>
