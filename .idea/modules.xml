@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/helloWorld.iml" filepath="$PROJECT_DIR$/.idea/modules/helloWorld.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/helloWorld_main.iml" filepath="$PROJECT_DIR$/.idea/modules/helloWorld_main.iml" group="helloWorld" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/helloWorld_test.iml" filepath="$PROJECT_DIR$/.idea/modules/helloWorld_test.iml" group="helloWorld" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestingHeadlessBrowsers.iml" filepath="$PROJECT_DIR$/.idea/modules/TestingHeadlessBrowsers.iml" group="TestingHeadlessBrowsers" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestingHeadlessBrowsers_main.iml" filepath="$PROJECT_DIR$/.idea/modules/TestingHeadlessBrowsers_main.iml" group="TestingHeadlessBrowsers" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestingHeadlessBrowsers_test.iml" filepath="$PROJECT_DIR$/.idea/modules/TestingHeadlessBrowsers_test.iml" group="TestingHeadlessBrowsers" />
     </modules>
   </component>
 </project>

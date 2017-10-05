@@ -4,6 +4,8 @@
     <bytecodeTargetLevel target="1.8">
       <module name="helloWorld_main" target="1.8" />
       <module name="helloWorld_test" target="1.8" />
+      <module name="TestingHeadlessBrowsers_main" target="1.8" />
+      <module name="TestingHeadlessBrowsers_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
