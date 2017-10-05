@@ -16,13 +16,14 @@ public class ChromeHeadless {
 
     @Test
     public void openBrowserAndDoSomething() throws IOException {
-        ChromeDriverService service = new ChromeDriverService.Builder()
-                .usingDriverExecutable(new File("drivers/chromedriver_linux"))
-                .usingAnyFreePort()
-                .withEnvironment(ImmutableMap.of("DISPLAY",":99"))
-                .build();
+        System.setProperty("phantomjs.binary.path","drivers/phantomjs");
+//        ChromeDriverService service = new ChromeDriverService.Builder()
+//                .usingDriverExecutable(new File("drivers/chromedriver_linux"))
+//                .usingAnyFreePort()
+//                .withEnvironment(ImmutableMap.of("DISPLAY",":99"))
+//                .build();
 
-        driver = new ChromeDriver(service);
+        driver = new PhantomJSDriver();
 
         driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
