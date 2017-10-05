@@ -16,7 +16,7 @@ public class ChromeHeadless {
 
     @Test
     public void openBrowserAndDoSomething() throws IOException {
-        System.setProperty("webdriver.chrome.driver","/usr/lib/chromium");
+        System.setProperty("webdriver.chrome.driver","drivers/chromedriver");
 
         ChromeDriverService service = new ChromeDriverService.Builder()
                 .usingDriverExecutable(new File("drivers/chromedriver"))
