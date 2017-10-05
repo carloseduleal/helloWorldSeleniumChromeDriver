@@ -6,10 +6,11 @@ import org.openqa.selenium.chrome.ChromeDriverService;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
 
-public class FirefoxHeadless {
+public class ChromeHeadless {
 
     WebDriver driver;
 
@@ -22,6 +23,10 @@ public class FirefoxHeadless {
                 .build();
 
         driver = new ChromeDriver(service);
+
+        driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+
         driver.get("http://www.google.com");
         driver.getTitle();
         assertEquals("Google", driver.getTitle());
