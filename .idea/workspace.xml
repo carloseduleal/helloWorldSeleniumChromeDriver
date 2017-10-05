@@ -24,12 +24,12 @@
       <file leaf-file-name="ChromeHeadless.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ChromeHeadless.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="19" column="70" lean-forward="false" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
+            <state relative-caret-position="223">
+              <caret line="27" column="72" lean-forward="false" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#483#749#1" expanded="true" />
-                <element signature="e#997#1014#0" expanded="true" />
+                <element signature="e#483#754#1" expanded="true" />
+                <element signature="e#1002#1019#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1091,8 +1091,8 @@
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#483#749#1" expanded="true" />
-            <element signature="e#997#1014#0" expanded="true" />
+            <element signature="e#483#754#1" expanded="true" />
+            <element signature="e#1002#1019#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1191,8 +1191,8 @@
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#483#749#1" expanded="true" />
-            <element signature="e#997#1014#0" expanded="true" />
+            <element signature="e#483#754#1" expanded="true" />
+            <element signature="e#1002#1019#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1287,12 +1287,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ChromeHeadless.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="19" column="70" lean-forward="false" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
+        <state relative-caret-position="223">
+          <caret line="27" column="72" lean-forward="false" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#483#749#1" expanded="true" />
-            <element signature="e#997#1014#0" expanded="true" />
+            <element signature="e#483#754#1" expanded="true" />
+            <element signature="e#1002#1019#0" expanded="true" />
           </folding>
         </state>
       </provider>
