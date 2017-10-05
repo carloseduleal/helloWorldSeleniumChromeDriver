@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f16b7ff9-6591-4381-a52b-6fbb436b6e8e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/ChromeHeadless.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/FirefoxHeadless.java" afterPath="$PROJECT_DIR$/src/test/java/FirefoxHeadless.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -26,13 +24,12 @@
       <file leaf-file-name="FirefoxHeadless.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/FirefoxHeadless.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+            <state relative-caret-position="332">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#526#791#1" expanded="true" />
-                <element signature="e#890#912#0" expanded="true" />
-                <element signature="e#922#939#0" expanded="true" />
+                <element signature="e#446#711#1" expanded="true" />
+                <element signature="e#810#827#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1100,9 +1097,8 @@
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#526#791#1" expanded="true" />
-            <element signature="e#890#912#0" expanded="true" />
-            <element signature="e#922#939#0" expanded="true" />
+            <element signature="e#446#711#1" expanded="true" />
+            <element signature="e#810#827#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1201,9 +1197,8 @@
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#526#791#1" expanded="true" />
-            <element signature="e#890#912#0" expanded="true" />
-            <element signature="e#922#939#0" expanded="true" />
+            <element signature="e#446#711#1" expanded="true" />
+            <element signature="e#810#827#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1298,13 +1293,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FirefoxHeadless.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+        <state relative-caret-position="332">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#526#791#1" expanded="true" />
-            <element signature="e#890#912#0" expanded="true" />
-            <element signature="e#922#939#0" expanded="true" />
+            <element signature="e#446#711#1" expanded="true" />
+            <element signature="e#810#827#0" expanded="true" />
           </folding>
         </state>
       </provider>

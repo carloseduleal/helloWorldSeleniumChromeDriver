@@ -1,10 +1,8 @@
 import com.google.common.collect.ImmutableMap;
 import org.junit.Test;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
-import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.io.File;
 import java.io.IOException;
@@ -25,7 +23,6 @@ public class FirefoxHeadless {
 
         driver = new ChromeDriver(service);
         driver.get("http://www.google.com");
-        driver.getPageSource();
         driver.getTitle();
         assertEquals("Google", driver.getTitle());
     }
