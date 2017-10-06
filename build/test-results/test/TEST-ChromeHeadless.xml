@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ChromeHeadless" tests="1" skipped="0" failures="1" errors="0" timestamp="2017-10-06T13:34:44" hostname="b3ce99430ed8" time="60.989">
+<testsuite name="ChromeHeadless" tests="1" skipped="0" failures="1" errors="0" timestamp="2017-10-06T14:32:37" hostname="c3323c55e190" time="61.289">
   <properties/>
-  <testcase name="openBrowserAndDoSomething" classname="ChromeHeadless" time="60.989">
-    <failure message="org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: crashed&#10;  (Driver info: chromedriver=2.27 (94b3700c8cfd6ef738a417983f710f6ab96b8638),platform=Linux 4.9.49-moby x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 60.11 seconds&#10;Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'&#10;System info: host: 'b3ce99430ed8', ip: '172.17.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.9.49-moby', java.version: '1.8.0_144'&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: crashed
+  <testcase name="openBrowserAndDoSomething" classname="ChromeHeadless" time="61.289">
+    <failure message="org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: crashed&#10;  (Driver info: chromedriver=2.27 (94b3700c8cfd6ef738a417983f710f6ab96b8638),platform=Linux 4.9.49-moby x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 60.13 seconds&#10;Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'&#10;System info: host: 'c3323c55e190', ip: '172.17.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.9.49-moby', java.version: '1.8.0_144'&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: crashed
   (Driver info: chromedriver=2.27 (94b3700c8cfd6ef738a417983f710f6ab96b8638),platform=Linux 4.9.49-moby x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 60.11 seconds
+Command duration or timeout: 60.13 seconds
 Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: 'b3ce99430ed8', ip: '172.17.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.9.49-moby', java.version: '1.8.0_144'
+System info: host: 'c3323c55e190', ip: '172.17.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.9.49-moby', java.version: '1.8.0_144'
 Driver info: driver.version: ChromeDriver
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -36,7 +36,7 @@ Driver info: driver.version: ChromeDriver
 	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:184)
 	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:171)
 	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:158)
-	at ChromeHeadless.openBrowserAndDoSomething(ChromeHeadless.java:18)
+	at ChromeHeadless.openBrowserAndDoSomething(ChromeHeadless.java:19)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -83,7 +83,7 @@ Driver info: driver.version: ChromeDriver
 </failure>
   </testcase>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 2.27 (94b3700c8cfd6ef738a417983f710f6ab96b8638) on port 12614
+  <system-err><![CDATA[Starting ChromeDriver 2.27 (94b3700c8cfd6ef738a417983f710f6ab96b8638) on port 4646
 Only local connections are allowed.
 ]]></system-err>
 </testsuite>
