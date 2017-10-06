@@ -10,7 +10,7 @@ public class ChromeHeadless {
 
     @Test
     public void openBrowserAndDoSomething(){
-        System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
+        System.setProperty("webdriver.chrome.driver","drivers/chromedriver_linux");
 
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless");
