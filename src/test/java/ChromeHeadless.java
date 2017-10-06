@@ -1,8 +1,12 @@
+import com.google.common.collect.ImmutableMap;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.phantomjs.PhantomJSDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+import java.io.File;
 
 public class ChromeHeadless {
 
@@ -10,13 +14,15 @@ public class ChromeHeadless {
 
     @Test
     public void openBrowserAndDoSomething(){
-        System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
+        //System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
 
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless");
-        options.addArguments("--port=9515");
+        ChromeDriverService service = new ChromeDriverService.Builder()
+                .usingDriverExecutable(new File("/usr/bin/chromedriver"))
+                .usingAnyFreePort()
+                .withEnvironment(ImmutableMap.of("DISPLAY",":99"))
+                .build();
 
-        driver = new ChromeDriver(options);
+        driver = new ChromeDriver(service);
 
         driver.get("http://www.google.com");
     }
