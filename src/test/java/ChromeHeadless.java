@@ -10,9 +10,13 @@ public class ChromeHeadless {
 
     @Test
     public void openBrowserAndDoSomething(){
-        System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
+        System.setProperty("webdriver.chrome.driver","drivers/chromedriver_32");
 
-        driver = new ChromeDriver();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--headless");
+        options.addArguments("--port=9515");
+
+        driver = new ChromeDriver(options);
 
         driver.get("http://www.google.com");
     }
