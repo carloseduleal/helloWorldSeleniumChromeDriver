@@ -10,11 +10,11 @@ public class ChromeHeadless {
 
     @Test
     public void openBrowserAndDoSomething(){
-        System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
+        System.setProperty("webdriver.chrome.driver","/usr/bin/chromium-browser");
 
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless");
-        options.addArguments("window-size=1200x600");
+        options.addArguments("--no-sandbox");
+        options.addArguments("--disable-gpu");
 
         driver = new ChromeDriver(options);
 
