@@ -14,6 +14,7 @@ public class ChromeHeadless {
 
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless");
+        options.addArguments("--port=9515");
 
         driver = new ChromeDriver(options);
 
