@@ -13,7 +13,7 @@ public class ChromeHeadless {
         System.setProperty("phantomjs.binary.path","/usr/bin/chromedriver");
 
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("headless");
+        options.addArguments("--headless");
         options.addArguments("window-size=1200x600");
 
         driver = new ChromeDriver(options);
