@@ -19,13 +19,13 @@ public class ChromeHeadless {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--no-sandbox");
 
-//        ChromeDriverService service = new ChromeDriverService.Builder()
-//                .usingDriverExecutable(new File("/usr/bin/chromium-browser"))
-//                .usingAnyFreePort()
-//                .withEnvironment(ImmutableMap.of("DISPLAY",":99"))
-//                .build();
+        ChromeDriverService service = new ChromeDriverService.Builder()
+                .usingDriverExecutable(new File("/usr/bin/chromium-browser"))
+                .usingAnyFreePort()
+                .withEnvironment(ImmutableMap.of("DISPLAY",":99"))
+                .build();
 
-        driver = new ChromeDriver(options);
+        driver = new ChromeDriver(service, options);
 
         driver.get("http://www.google.com");
 
