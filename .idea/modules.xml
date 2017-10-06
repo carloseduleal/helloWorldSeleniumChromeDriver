@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestingHeadlessBrowsers.iml" filepath="$PROJECT_DIR$/.idea/modules/TestingHeadlessBrowsers.iml" group="TestingHeadlessBrowsers" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestingHeadlessBrowsers_main.iml" filepath="$PROJECT_DIR$/.idea/modules/TestingHeadlessBrowsers_main.iml" group="TestingHeadlessBrowsers" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestingHeadlessBrowsers_test.iml" filepath="$PROJECT_DIR$/.idea/modules/TestingHeadlessBrowsers_test.iml" group="TestingHeadlessBrowsers" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChromeHeadlessExample.iml" filepath="$PROJECT_DIR$/.idea/modules/ChromeHeadlessExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChromeHeadlessExample_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ChromeHeadlessExample_main.iml" group="ChromeHeadlessExample" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChromeHeadlessExample_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ChromeHeadlessExample_test.iml" group="ChromeHeadlessExample" />
     </modules>
   </component>
 </project>

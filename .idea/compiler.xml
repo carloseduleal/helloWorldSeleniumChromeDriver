@@ -2,6 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="1.8">
+      <module name="ChromeHeadlessExample_main" target="1.8" />
+      <module name="ChromeHeadlessExample_test" target="1.8" />
       <module name="helloWorld_main" target="1.8" />
       <module name="helloWorld_test" target="1.8" />
       <module name="TestingHeadlessBrowsers_main" target="1.8" />
