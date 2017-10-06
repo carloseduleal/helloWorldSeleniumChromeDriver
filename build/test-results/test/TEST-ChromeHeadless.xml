@@ -1,42 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ChromeHeadless" tests="1" skipped="0" failures="1" errors="0" timestamp="2017-10-06T15:04:07" hostname="c3323c55e190" time="62.118">
+<testsuite name="ChromeHeadless" tests="1" skipped="0" failures="1" errors="0" timestamp="2017-10-06T15:19:40" hostname="c3323c55e190" time="61.054">
   <properties/>
-  <testcase name="openBrowserAndDoSomething" classname="ChromeHeadless" time="62.118">
-    <failure message="org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: crashed&#10;  (Driver info: chromedriver=2.27 (94b3700c8cfd6ef738a417983f710f6ab96b8638),platform=Linux 4.9.49-moby x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 60.21 seconds&#10;Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'&#10;System info: host: 'c3323c55e190', ip: '172.17.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.9.49-moby', java.version: '1.8.0_144'&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: crashed
+  <testcase name="openBrowserAndDoSomething" classname="ChromeHeadless" time="61.054">
+    <failure message="org.openqa.selenium.NoSuchSessionException: no such session&#10;  (Driver info: chromedriver=2.27 (94b3700c8cfd6ef738a417983f710f6ab96b8638),platform=Linux 4.9.49-moby x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 32 milliseconds&#10;Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'&#10;System info: host: 'c3323c55e190', ip: '172.17.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.9.49-moby', java.version: '1.8.0_144'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{message=unknown error: Chrome failed to start: crashed&#10;  (Driver info: chromedriver=2.27 (94b3700c8cfd6ef738a417983f710f6ab96b8638),platform=Linux 4.9.49-moby x86_64), platform=ANY}]&#10;Session ID: a24bbbac0c16baa6601e0eebc2d90b11" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: no such session
   (Driver info: chromedriver=2.27 (94b3700c8cfd6ef738a417983f710f6ab96b8638),platform=Linux 4.9.49-moby x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 60.21 seconds
-Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+Command duration or timeout: 32 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
 System info: host: 'c3323c55e190', ip: '172.17.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.9.49-moby', java.version: '1.8.0_144'
-Driver info: driver.version: ChromeDriver
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{message=unknown error: Chrome failed to start: crashed
+  (Driver info: chromedriver=2.27 (94b3700c8cfd6ef738a417983f710f6ab96b8638),platform=Linux 4.9.49-moby x86_64), platform=ANY}]
+Session ID: a24bbbac0c16baa6601e0eebc2d90b11
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
-	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$24(ProtocolHandshake.java:359)
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:362)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:217)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:140)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:134)
-	at ChromeHeadless.openBrowserAndDoSomething(ChromeHeadless.java:25)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:322)
+	at ChromeHeadless.openBrowserAndDoSomething(ChromeHeadless.java:27)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -83,7 +66,11 @@ Driver info: driver.version: ChromeDriver
 </failure>
   </testcase>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 2.27 (94b3700c8cfd6ef738a417983f710f6ab96b8638) on port 21094
+  <system-err><![CDATA[Starting ChromeDriver 2.27 (94b3700c8cfd6ef738a417983f710f6ab96b8638) on port 24321
 Only local connections are allowed.
+Oct 06, 2017 3:19:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+Oct 06, 2017 3:20:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
 ]]></system-err>
 </testsuite>
