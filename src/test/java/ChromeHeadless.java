@@ -20,8 +20,6 @@ public class ChromeHeadless {
         options.addArguments("--no-sandbox");
 
         ChromeDriverService service = new ChromeDriverService.Builder()
-                .usingDriverExecutable(new File("/usr/bin/chromium-browser"))
-                .usingAnyFreePort()
                 .withEnvironment(ImmutableMap.of("DISPLAY",":99"))
                 .build();
 
