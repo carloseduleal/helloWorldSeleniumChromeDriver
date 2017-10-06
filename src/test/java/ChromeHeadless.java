@@ -1,16 +1,13 @@
 import com.google.common.collect.ImmutableMap;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.firefox.FirefoxDriver;
-
+import org.openqa.selenium.chrome.ChromeDriver;
 import java.io.File;
 
 public class ChromeHeadless {
 
-    WebDriver driver;
+    static WebDriver driver;
 
     @Test
     public void openBrowserAndDoSomething(){
@@ -23,8 +20,9 @@ public class ChromeHeadless {
                 .build();
 
         driver = new ChromeDriver(service);
-
         driver.get("http://www.google.com");
+
+        driver.quit();
     }
 
 }
