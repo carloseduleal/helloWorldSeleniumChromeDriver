@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f16b7ff9-6591-4381-a52b-6fbb436b6e8e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phantomjsdriver.log" afterPath="$PROJECT_DIR$/phantomjsdriver.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ChromeHeadless.java" afterPath="$PROJECT_DIR$/src/test/java/ChromeHeadless.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -25,10 +26,10 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/ChromeHeadless.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="12" column="80" lean-forward="false" selection-start-line="12" selection-start-column="80" selection-end-line="12" selection-end-column="80" />
+              <caret line="12" column="75" lean-forward="false" selection-start-line="12" selection-start-column="75" selection-end-line="12" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#415#459#1" expanded="true" />
+                <element signature="e#410#454#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1152,7 +1153,7 @@
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#415#459#1" expanded="true" />
+            <element signature="e#410#454#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1251,7 +1252,7 @@
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#415#459#1" expanded="true" />
+            <element signature="e#410#454#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1355,10 +1356,10 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/ChromeHeadless.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="12" column="80" lean-forward="false" selection-start-line="12" selection-start-column="80" selection-end-line="12" selection-end-column="80" />
+          <caret line="12" column="75" lean-forward="false" selection-start-line="12" selection-start-column="75" selection-end-line="12" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#415#459#1" expanded="true" />
+            <element signature="e#410#454#1" expanded="true" />
           </folding>
         </state>
       </provider>
