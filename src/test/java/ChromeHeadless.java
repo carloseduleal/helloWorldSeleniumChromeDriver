@@ -16,13 +16,8 @@ public class ChromeHeadless {
         options.addArguments("headless");
         options.addArguments("window-size=1200x600");
 
-        try{
-            driver = new ChromeDriver(options);
-        } catch (Exception e){
-            System.out.println(e.getMessage());
-            System.out.println(e.getStackTrace());
-            e.printStackTrace();
-        }
+        driver = new ChromeDriver(options);
+
         driver.get("http://www.google.com");
     }
 
