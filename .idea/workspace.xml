@@ -47,11 +47,10 @@
       <file leaf-file-name="ChromeHeadless.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ChromeHeadless.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="16" column="72" lean-forward="false" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
+            <state relative-caret-position="15">
+              <caret line="4" column="47" lean-forward="false" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#439#707#1" expanded="true" />
+                <element signature="e#439#705#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1281,8 +1280,7 @@
         <state relative-caret-position="135">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#439#707#1" expanded="true" />
+            <element signature="e#439#705#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1388,8 +1386,7 @@
         <state relative-caret-position="150">
           <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#439#707#1" expanded="true" />
+            <element signature="e#439#705#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1399,8 +1396,7 @@
         <state relative-caret-position="120">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="25" selection-end-column="50" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#439#707#1" expanded="true" />
+            <element signature="e#439#705#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1410,8 +1406,7 @@
         <state relative-caret-position="135">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#439#707#1" expanded="true" />
+            <element signature="e#439#705#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1461,8 +1456,7 @@
         <state relative-caret-position="120">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="25" selection-end-column="50" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#439#707#1" expanded="true" />
+            <element signature="e#439#705#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1512,8 +1506,7 @@
         <state relative-caret-position="135">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#439#707#1" expanded="true" />
+            <element signature="e#439#705#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1523,8 +1516,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#439#707#1" expanded="true" />
+            <element signature="e#439#705#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1590,8 +1582,7 @@
         <state relative-caret-position="30">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#439#707#1" expanded="true" />
+            <element signature="e#439#705#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1622,11 +1613,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ChromeHeadless.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="16" column="72" lean-forward="false" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
+        <state relative-caret-position="15">
+          <caret line="4" column="47" lean-forward="false" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#439#707#1" expanded="true" />
+            <element signature="e#439#705#1" expanded="true" />
           </folding>
         </state>
       </provider>

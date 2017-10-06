@@ -14,13 +14,14 @@ public class ChromeHeadless {
         //System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
 
         ChromeDriverService service = new ChromeDriverService.Builder()
-                .usingDriverExecutable(new File("drivers/chromedriver_32"))
+                .usingDriverExecutable(new File("/usr/bin/chromedriver"))
                 .usingAnyFreePort()
                 .withEnvironment(ImmutableMap.of("DISPLAY",":99"))
                 .build();
 
         driver = new ChromeDriver(service);
         driver.get("http://www.google.com");
+
         driver.quit();
     }
 
