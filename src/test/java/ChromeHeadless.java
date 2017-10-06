@@ -1,35 +1,21 @@
-import com.google.common.collect.ImmutableMap;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeDriverService;
-
-import java.io.File;
-import java.io.IOException;
-import java.util.concurrent.TimeUnit;
-
-import static org.junit.Assert.assertEquals;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 public class ChromeHeadless {
 
     WebDriver driver;
 
     @Test
-    public void openBrowserAndDoSomething() throws IOException {
-        System.setProperty("phantomjs.binary.path","drivers/phantomjs");
-//        ChromeDriverService service = new ChromeDriverService.Builder()
-//                .usingDriverExecutable(new File("drivers/chromedriver_linux"))
-//                .usingAnyFreePort()
-//                .withEnvironment(ImmutableMap.of("DISPLAY",":99"))
-//                .build();
+    public void openBrowserAndDoSomething(){
+        System.setProperty("webdriver.chrome.driver","drivers/chromedriver");
 
-        driver = new PhantomJSDriver();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("headless");
+        options.addArguments("window-size=1200x600");
 
-        driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-
-        driver.get("http://www.google.com");
-        driver.getTitle();
-        assertEquals("Google", driver.getTitle());
+        driver = new ChromeDriver(options);
     }
+
 }
