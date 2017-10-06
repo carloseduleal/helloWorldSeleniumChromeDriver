@@ -26,7 +26,7 @@ public class ChromeHeadless {
         driver = new ChromeDriver(options);
 
         driver.get("http://www.google.com");
-	assertEquals(driver.getTitle(),"Google");
+	assertEquals(driver.getTitle(),"Gooe");
        
         driver.quit();
     }
