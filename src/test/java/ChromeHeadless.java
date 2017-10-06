@@ -10,7 +10,7 @@ public class ChromeHeadless {
 
     @Test
     public void openBrowserAndDoSomething(){
-        System.setProperty("phantomjs.binary.path","/usr/bin/chromedriver");
+        System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
 
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless");

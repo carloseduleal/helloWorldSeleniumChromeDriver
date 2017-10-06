@@ -25,11 +25,11 @@
       <file leaf-file-name="ChromeHeadless.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ChromeHeadless.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            <state relative-caret-position="135">
+              <caret line="12" column="51" lean-forward="false" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#408#452#1" expanded="true" />
+                <element signature="e#410#454#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1101,7 +1101,7 @@
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#408#452#1" expanded="true" />
+            <element signature="e#410#454#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1200,7 +1200,7 @@
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#408#452#1" expanded="true" />
+            <element signature="e#410#454#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1295,11 +1295,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ChromeHeadless.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        <state relative-caret-position="135">
+          <caret line="12" column="51" lean-forward="false" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#408#452#1" expanded="true" />
+            <element signature="e#410#454#1" expanded="true" />
           </folding>
         </state>
       </provider>
