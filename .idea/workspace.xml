@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f16b7ff9-6591-4381-a52b-6fbb436b6e8e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/drivers/chromedriver" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/drivers/chromedriver_32" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/drivers/chromedriver_linux" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/drivers/geckodriver" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/drivers/phantomjs" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ChromeHeadless.java" afterPath="$PROJECT_DIR$/src/test/java/ChromeHeadless.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-    </list>
+    <list default="true" id="f16b7ff9-6591-4381-a52b-6fbb436b6e8e" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
